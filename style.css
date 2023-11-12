@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lato:wght@300;400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif
+}
+
+main{
+    padding: 32px;
+}
+
+.row{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 40px;
+    height: 40px;
+    padding-right: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #6415ff;
+}
+
+.nav__link{
+    color: #243e63;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 24px;
+}
+
+.nav__link:last-child{
+    padding-left: 0;
+}
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.btn{
+    background-color: #6415ff;
+    color: white;
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 999px;
+    border: none;
+}
+
+.logo__button{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.company__name{
+    color: #243e63;
+    padding: 0 4px;
+}
+
+.company__name:hover{
+    color: #6415ff;
+    text-decoration: none;
+}
+
