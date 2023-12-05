@@ -15,7 +15,6 @@ main{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -108,6 +107,11 @@ header
 
 */
 
+.header__row{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+}
 
 
 /*
@@ -115,6 +119,11 @@ header
 Features
 
 */
+
+.features__row{
+    display: flex;
+    flex-direction: column;
+}
 
 .features__title{
     font-size: 16px;
