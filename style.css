@@ -39,6 +39,14 @@ nav{
     justify-content: space-between;
 }
 
+.nav__row{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .logo{
     width: 40px;
@@ -110,9 +118,13 @@ header
 .header__row{
     display: flex;
     flex-direction: row;
+    width: 100%;
     max-width: 1200px;
 }
 
+.header__img--wrapper{
+    max-width: 60%;
+}
 
 /*
 
