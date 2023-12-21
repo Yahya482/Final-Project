@@ -172,6 +172,13 @@ header
 
 }
 
+.header__customers{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    width: 70%;
+}
+
 /*
 
 Features
