@@ -27,7 +27,7 @@ main{
 }
 
 nav{
-    height: 80px;
+    height: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,12 +72,12 @@ a:hover{
 }
 
 ul{
-    display: flex;
-    
+    display: flex;  
 }
 
 li{
     list-style-type: none;
+    text-align: center;
 }
 
 .btn{
