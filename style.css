@@ -154,6 +154,12 @@ header
     text-align-last: left;
 }
 
+.get-started{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
 .header__input{
     border: 2px solid #e5e7eb;
     border-radius: 9999px;
@@ -470,4 +476,164 @@ VALUES
 .values__button{
     margin-top: 48px;
     transition: 300ms;
+}
+
+/*
+
+PRICING
+
+*/
+
+.price__row{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+
+.price__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.price__subheader{
+    font-size: 48px;
+    line-height: 72px;
+    color: #243e63;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.price__para{
+    font-size: 18px;
+    line-height: 29.25px;
+    text-align:center;
+    color: #7c8ba1;
+    letter-spacing: normal;
+    width: 100%;
+    max-width: 576px;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.price_cards--wrapper{
+    display: flex;
+    width: 100%;
+}
+
+.price__card1{
+    margin-top: 64px;
+    margin-right: 32px;
+    width: 100%;
+    max-width: 384px;
+    border: 1px solid #e5e7eb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.price__card--top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.price__card--middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.price__card--bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 16px;
+}
+
+
+.price__card2{
+    margin-top: 64px;
+    margin-right: 32px;
+    width: 100%;
+    max-width: 384px;
+    border: 1px solid #e5e7eb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.price__card3{
+    margin-top: 64px;
+    margin-right: 32px;
+    width: 100%;
+    max-width: 384px;
+    border: 1px solid #e5e7eb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.price__card2--top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.price__card--name{
+    font-size: 20px;
+    color: #1a202c;
+    line-height: 32.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.price__card--price{
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 78px;
+    margin: 4px 0;
+    font-weight: 700;
+}
+
+.price__card--monthly{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    color: #A0AEC0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main--price__card--feature{
+    font-size: 20px;
+    color: #1a202c;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.price__card--feature{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #718096;
+    font-weight: 500;
 }
