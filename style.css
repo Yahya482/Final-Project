@@ -569,11 +569,12 @@ PRICING
     margin-right: 32px;
     width: 100%;
     max-width: 384px;
-    border: 1px solid #e5e7eb;
+    background-image: linear-gradient(135deg,rgb(76,81,191) 0%, rgb(102,126,234) 100%);
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    box-shadow: 0 0 10px 1 rgba(0, 0, 0, 0.05);
 }
 
 .price__card3{
@@ -594,7 +595,6 @@ PRICING
     justify-content: center;
     align-items: center;
     padding: 32px 0;
-    border-bottom: 2px solid #e5e7eb;
 }
 
 .price__card--name{
@@ -636,4 +636,88 @@ PRICING
     line-height: 24px;
     color: #718096;
     font-weight: 500;
+}
+
+.price__card--border{
+    height: 8px;
+    background: linear-gradient(115deg, rgb(56,178,172) 0%, rgb(129,230,217)100%);
+    border: 0px solid #e5e7eb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.price__card--btn{
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    background: linear-gradient(115deg, rgb(56,178,172) 0%, rgb(129,230,217)100%);
+    color: #fff;
+    padding: 18px 59px;
+    border-radius: 9999px;
+    font-weight: 700;
+    transition: all 300ms ease;
+}
+
+.price__card2--name{
+    color: #fff;
+}
+
+.price__card2--price{
+    color: #fff;
+}
+
+.price__card2--monthly{
+    color: #fff;
+}
+
+.price__card2--feature{
+    color: #fff;
+}
+
+.main--price__card2--feature{
+    color: #fff;
+}
+
+.price__card2--btn{
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    background: #fff;
+    color: #460fb3;
+    padding: 18px 59px;
+    border-radius: 9999px;
+    font-weight: 700;
+    transition: all 300ms ease;
+}
+
+.price__card2--middle{
+    border-top: 2px solid rgba(102, 126, 234, var(--tw-border-opacity));
+    --tw-border-opacity: 1;
+    border-bottom: 2px solid rgba(102, 126, 234, var(--tw-border-opacity));
+}
+
+.price__card2--bottom{
+    border: 0px solid #e5e7eb;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.price__card3--border{
+    height: 8px;
+    background: linear-gradient(115deg, rgb(245,101,101) 0%, rgb(254,178,178) 100%);
+    border: 0px solid #e5e7eb;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.price__card3--btn{
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    background: linear-gradient(115deg, rgb(245,101,101) 0%, rgb(254,178,178) 100%);
+    color: #fff;
+    padding: 18px 59px;
+    border-radius: 9999px;
+    font-weight: 700;
+    transition: all 300ms ease;
 }
