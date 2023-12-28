@@ -329,7 +329,7 @@ QUALITY
     margin-bottom: 40px;
 }
 
-.quality__btn{
+.quality__btn:hover{
     color: #fff;
     text-decoration: none;
     background-color: #5011cc;
