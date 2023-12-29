@@ -1093,11 +1093,48 @@ Menu Backdrop
 }
 
 .btn__burger{
-    display: block;
+    display: none;
 }
 
 .btn__menu--close{
     position: absolute;
     right: 16px;
     top: 8px;
+}
+
+
+/*
+
+MEDIA
+
+*/
+
+@media (max-width: 1024px){
+    .nav__links{
+        display: none;
+    }
+
+    .btn__burger{
+        display: block;
+    }
+
+    .header__row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__description{
+        width: 100%;
+        max-width: 512px;
+    }
+
+    .header__img--wrapper{
+        max-width: 512px;
+        margin-top: 48px;
+    }
+
+    .header__customers{
+        width: 100%;
+        margin-top: 48px;
+    }
 }
