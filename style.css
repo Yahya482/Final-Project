@@ -1137,4 +1137,42 @@ MEDIA
         width: 100%;
         margin-top: 48px;
     }
+
+    .service{
+        width: calc(100%/2);
+    }
+
+    .quality__subtitle, .steps__subtitle, .values__subtitle,.testimonial__subheader{
+        font-size: 36px;
+    }
+
+    .price_cards--wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .get-started__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-started__left{
+        width: 100%;
+        max-width: 512px;
+    }
+
+    .get-started__right{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .footer__row{
+        padding: 0 32px;
+    }
 }
